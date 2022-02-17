@@ -61,6 +61,7 @@ function passwordValidator(confirmpass, pass){
     
     if(confirmpass.value != "" && (confirmpass.value === pass.value)){
         validInput(confirmpass)
+        confirmpass.span.innerHTML = ""
         return 1
     }else{
         invalidInput(confirmpass)
