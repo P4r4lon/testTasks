@@ -22,8 +22,6 @@ let messages = [
 
 const button = document.querySelector(".btn")
 
-
-
 button.onclick = (e) => { 
     e.preventDefault()
     let checkSum = 0
